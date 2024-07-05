@@ -1,0 +1,78 @@
+:host {
+    --color-texto:#ffff;
+    --color-fondo-blanco: #c4b8b864; 
+	--color-botton-fondo:#0000ff;
+    --color-botton-fondo-hover: #57575d;
+	--color-botton-text:#000;
+	--color-body:#1D1D1D;
+	--color-negro:#000;
+	--color-borde:#AA38A5;
+}
+
+#body-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px; 
+    border: 1px solid var(--color-borde);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: var(--color-fondo-blanco);
+}
+
+.login-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-body {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-borde);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--color-botton-fondo); 
+    color: var(--color-texto);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; 
+}
+
+button:hover {
+    background-color: var(--color-botton-fondo-hover); 
+}
+
+#btn-regis{
+    background-color: var(--color-botton-fondo); 
+    color: var(--color-texto);
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; 
+}
+
+btn-regis:hover {
+    background-color: var(--color-botton-fondo-hover);
+}
