@@ -17,7 +17,7 @@ export class LoginComponent {
   }
 
   iniciarSesion(){
-    this.router.navigate([''])
+    this.router.navigate(['body'])
   }
 
 }

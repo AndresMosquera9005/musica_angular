@@ -3,6 +3,7 @@ import path from 'node:path';
 import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { NgModule } from '@angular/core';
+import { BodyComponent } from './components/body/body.component';
 
 export const routes: Routes = [
     {
@@ -13,6 +14,9 @@ export const routes: Routes = [
     },
     {
         path: "registrame", component: RegistroComponent
+    },
+    {
+        path: "body", component: BodyComponent
     }
 ];
 
