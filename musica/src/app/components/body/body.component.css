@@ -1,3 +1,8 @@
+:host {
+    --color-btn-fondo: #0B5ED7;
+    --color-btn-texto: #fff;
+}
+
 .boy_margin{
     margin: 1% 5% ;
 }
@@ -9,4 +14,12 @@
 .img-he {
     margin-left: 0.5px;
     height: 150px;
+}
+
+.botones {
+    background-color: var(--color-btn-fondo);
+    color: var(--color-btn-texto);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
 }

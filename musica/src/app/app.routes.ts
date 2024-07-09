@@ -4,6 +4,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { NgModule } from '@angular/core';
 import { BodyComponent } from './components/body/body.component';
+import { MusicaPopComponent } from './components/musica-pop/musica-pop.component';
 
 export const routes: Routes = [
     {
@@ -17,6 +18,9 @@ export const routes: Routes = [
     },
     {
         path: "body", component: BodyComponent
+    },
+    {
+        path: 'musicaLista', component: MusicaPopComponent
     }
 ];
 

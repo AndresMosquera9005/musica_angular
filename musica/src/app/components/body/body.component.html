@@ -1,3 +1,6 @@
+//se elimina linea dos body.component.ts se elina la import
+<app-header></app-header>
+
 <div class="boy_margin">
 
     <div class="row">
@@ -6,8 +9,7 @@
                 <img src="/img/pop.jpg" class="card-img-top img-he" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Musica Pop</h5>
-                    <!-- <p class="card-text">Michael Jackson.</p> -->
-                    <a href="#" class="btn btn-primary">Ir a escuchar</a>
+                    <button class="botones" (click)="musicaLista()">Ir a escuchar</button>
                 </div>
             </div>
         </div>
@@ -18,7 +20,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Musica Popular</h5>
                     <!-- <p class="card-text">Jessi Uribe.</p> -->
-                    <a href="#" class="btn btn-primary">Ir a escuchar</a>
+                    <a href="#" class="btn btn-primary" >Ir a escuchar</a>
                 </div>
             </div>
         </div>
