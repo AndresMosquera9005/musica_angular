@@ -1,45 +1,34 @@
-.row{
-    margin-left: 2%;
+:host {
+    --color-texto: #000;
+    --color-fondo-card: #fff;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.card {
-    width: 350px;
-    height: 150px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    margin: 2px;
-    padding: 15px;
+.col-3 {
+    padding: 10px;
 }
 
-.card h3 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
+.music-card {
+    background-color: var(--color-fondo-card);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px red;
 }
 
-.card p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #666;
+.music-card img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover;
 }
 
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column; 
-    }
-    .col-3 {
-        width: 100%;
-    }
+.card-content {
+    padding: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .col-3 {
-        width: 50%; 
-    }
-}
-
-@media (min-width: 992px) {
-    .col-3 {
-        width: 33.33%;
-    }
+h3 {
+    margin-bottom: 5px;
 }
